@@ -1,17 +1,81 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="pt-br">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokedex Web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="./assets/img/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
   </head>
   <body>
-    <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
+    <div class="container">
+      <div class="card animate">
+        <div class="pokemon">
+          <div class="circle"></div>
+          <img
+            class="pokeImg"
+            src="./assets/img/Pokemon-Pokeball-PNG-HD-Image.png"
+            alt=""
+          />
+        </div>
+        <div class="info">
+          <h1 class="title">Pokedex</h1>
+          <h3>Type</h3>
+          <div class="types-card">
+            <div class="typeOne">Pokemon</div>
+            <div class="typeTwo hide">Pokemon</div>
+          </div>
+        </div>
+        <div class="input pokename">
+          <input type="text" class="input_poke" placeholder="Type a Pokemon" />
+        </div>
+        <section class="buttons">
+          <button class="search">Search</button>
+          <button class="showStats">Show Stats</button>
+        </section>
+      </div>
+      <div class="card-stats">
+        <img class="logo" src="./assets/img/Pokemon-Logo.png" alt="" />
+        <section class="info-stats">
+          <article class="stats">
+            <span class="hp">MAX HP</span>
+            <div class="stats-bar hp"></div>
+          </article>
+          <article class="stats">
+            <span class="atk">ATTACK</span>
+            <div class="stats-bar atk"></div>
+          </article>
+          <article class="stats">
+            <span class="def">DEFENSE</span>
+            <div class="stats-bar def"></div>
+          </article>
+          <article class="stats">
+            <span class="spdef">SPECIAL DEF</span>
+            <div class="stats-bar spdef"></div>
+          </article>
+          <article class="stats">
+            <span class="spatk">SPECIAL ATK</span>
+            <div class="stats-bar spatk"></div>
+          </article>
+          <article class="stats">
+            <span class="speed">SPEED</span>
+            <div class="stats-bar speed"></div>
+          </article>
+          <button class="showPokemon">Choose Pokemon</button>
+        </section>
+      </div>
+    </div>
   </body>
 </html>
