@@ -1,24 +1,24 @@
-# pockdex-project
+Desafio SomoS
+Linguagem: Java Script
 
-## Project setup
-```
-npm install
-```
+Framework: VUE
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Descrição
+POKEDEX, aplicação com sistema de busca de pokémons
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Pré-requisitos
+Antes de iniciar, se assegure que possui os requisitos abaixo:
 
-### Lints and fixes files
-```
-npm run lint
-```
+NODE instalado
+VUE instalado
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Compilação/Configuração
+Para compilar/configurar este projeto, siga as seguintes etapas:
+
+1 - npm install
+
+
+Instalação/Execução
+Para instalar/executar este projeto, siga as seguintes etapas:
+
+1 - npm run dev
