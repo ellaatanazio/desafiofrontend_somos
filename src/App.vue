@@ -122,7 +122,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgb(17, 17, 17);
+  background: rgb(10, 10, 10);
   perspective: 1000px;
 }
 
@@ -139,7 +139,7 @@ body {
 
 .container {
   width: 80%;
-  background: rgba(22, 22, 22, 1);
+  background: rgb(241, 180, 66);
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -222,7 +222,7 @@ input::selection {
   align-items: center;
   justify-content: space-around;
   font-size: 0.9rem;
-  color: rgb(10, 10, 10);
+  color: rgb(197, 187, 46);
   text-align: center;
   background: var(--main-bg-color);
   width: 100px;
@@ -278,7 +278,7 @@ input::selection {
 }
 .stats span {
   padding: 5px;
-  background: rgb(243, 243, 243);
+  background: rgb(241, 240, 240);
   color: rgb(12, 12, 12);
 }
 .card-stats {
@@ -294,7 +294,7 @@ input::selection {
 }
 .invalid {
   background: rgb(255, 55, 41);
-  color: #fff;
+  color: rgb(20, 20, 20);
   font-size: 1.2em;
   text-align: center;
 }
@@ -311,10 +311,10 @@ input::selection {
   background: linear-gradient(to right, #7f00ff, #e100ff);
 }
 .spatk {
-  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  background: linear-gradient(to right, #eb9e3b, #e09d39);
 }
 .speed {
-  background: linear-gradient(to right, #56ccf2, #2f80ed);
+  background: linear-gradient(to right, #e9ebec, #0d0d0e);
 }
 
 @keyframes slide {
@@ -338,7 +338,8 @@ input::selection {
 .showStats,
 .showPokemon {
   display: none;
-  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 20px 20px rgba(212, 214, 84, 0.651),
+    0px 0px 50px rgba(0, 0, 0, 0.2);
 }
 /* Search Button */
 .buttons {
