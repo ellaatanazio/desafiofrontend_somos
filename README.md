@@ -22,3 +22,5 @@ Instalação/Execução
 Para instalar/executar este projeto, siga as seguintes etapas:
 
 1 - npm run dev
+
+Obs: Em desenvolvimento
